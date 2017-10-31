@@ -1,0 +1,32 @@
+                             	个人博客项目开发文档
+                                      	
+使用技术：
+		spring boot(敏捷开发)  redis(缓存)   mybatis(持久层框架)  websocket(实时消息推送)  mysql(数据库)  log4j(日志)
+开发工具: 
+		myEclipse(编译器)   maven(项目管理构建工具)    JDK1.7 
+系统分层:  
+		MVC模式
+各package功能 : 
+		com.blog.service(业务层接口包) com.blog.service.impl(业务层接口具体实现包) com.blog.rest(控制层包)
+		com.blog.constant(常量包) com.blog.cache(缓存包)  com.blog.mapper(持久层包) com.blog.currency(springBoot启动包)
+ 		com.blog.dto(视图层交互对象包) com.blog.model(持久层交互对象包) com.blog.eto(持久层添加过渡对象包)
+ 		com.blog.uit(工具包) com.blog.exception(异常类包)  com.blog.test(测试包)
+ 		
+ 系统功能需求:
+ 		个人博客发表 , 评论/回复模块 , 关注/取消关注模块 , 点赞/转发模块   , 博客推送模块
+ 		
+创建数据库 ：
+		将doc文档中的myblogs.sql 执行  创建数据库名称为 myblogs
+		
+									各模块功能实现详解
+
+ 个人博客发表:
+ 
+
+ 评论/回复模块:
+ 
+ 关注/取消关注模块:
+ 		
+点赞/转发模块:
+    
+博客推送模块：

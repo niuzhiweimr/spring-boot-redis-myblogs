@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: myblogs
+Implementation-Version: 0.1.0
+Implementation-Vendor-Id: com.myblogs
+Build-Jdk: 1.7.0_45
+Built-By: niuzhiwei
+Created-By: Maven Integration for Eclipse
+

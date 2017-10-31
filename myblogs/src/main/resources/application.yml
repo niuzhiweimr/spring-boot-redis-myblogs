@@ -1,0 +1,20 @@
+spring:
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/myblogs?useUnicode\=true&characterEncoding\=UTF-8
+      username: root
+      password: 111111
+      initialize: true
+ 
+
+Spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 5000
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
